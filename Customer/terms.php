@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-    <title>AutoTrade | Free Vehicles Dealer Website</title>
+    <title>AutoTrade | Free Vehicles Dealer Website </title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -42,25 +42,25 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="CustomerIndex.html" class="logo">Auto<em>Trade</em></a>
+                        <a href="CustomerIndex.php" class="logo">Auto<em>Trade</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="CustomerIndex.html">Home</a></li>
-                            <li><a href="cars.html">Vehicles</a></li>
+                            <li><a href="CustomerIndex.php">Home</a></li>
+                            <li><a href="cars.php">Vehicles</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                               
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item"  href="about.html">About Us</a>
-                                    <a class="dropdown-item" href="blog.html">Blog</a>
-                                    <a class="dropdown-item" href="team.html">Team</a>
-                                    <a class="dropdown-item" href="testimonials.html">Testimonials</a>
-                                    <a class="dropdown-item active" href="faq.html">FAQ</a>
-                                    <a class="dropdown-item" href="terms.html">Terms</a>
+                                    <a class="dropdown-item"  href="about.php">About Us</a>
+                                    <a class="dropdown-item" href="blog.php">Blog</a>
+                                    <a class="dropdown-item" href="team.php">Team</a>
+                                    <a class="dropdown-item" href="testimonials.php">Testimonials</a>
+                                    <a class="dropdown-item" href="faq.php">FAQ</a>
+                                    <a class="dropdown-item active" href="terms.php">Terms</a>
                                 </div>
                             </li>
-                            <li><a href="contact.html">Contact</a></li> 
+                            <li><a href="contact.php">Contact</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -80,7 +80,7 @@
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2>Read our <em>FAQ</em></h2>
+                        <h2>Read our <em>Terms</em></h2>
                         <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
                     </div>
                 </div>
@@ -97,22 +97,22 @@
           
             <section class='tabs-content'>
               <article>
-                <h4><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet?</h4>
-                <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Vel aspernatur natus dignissimos eos quod, odio.</p>
+                <h4>1. Lorem ipsum dolor sit amet</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aspernatur natus dignissimos eos quod, odio.</p>
 
                 <br>
                     
-                <h4><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet, consectetur?</h4>
+                <h4>2. Lorem ipsum dolor sit amet, consectetur.</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate ullam exercitationem molestiae illum? Nam magni, saepe sint maiores vitae!</p>
 
                 <br>
                 
-                <h4><i class="fa fa-question-circle"></i> Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum?</h4>
+                <h4>3. Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum</h4>
                 <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
 
                 <br>
                 
-                <h4><i class="fa fa-question-circle"></i> Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum?</h4>
+                <h4>4. Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi suscipit commodi impedit unde accusantium nam incidunt tenetur, libero maiores enim! Nisi ex odit, totam nihil doloribus. Nemo ut, eos consequatur libero aut quas dolorum ipsa, quidem, totam dicta id possimus dolores distinctio laboriosam doloribus voluptates tenetur consectetur inventore aliquid dolorem?</p>
               </article>
             </section>

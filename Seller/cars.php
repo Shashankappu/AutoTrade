@@ -42,26 +42,26 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="SellerIndex.html" class="logo">Auto<em>Trade</em></a>
+                        <a href="SellerIndex.php" class="logo">Auto<em>Trade</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="SellerIndex.html">Home</a></li>
-                            <li><a href="cars.html" class="active">Add Vehicles</a></li>
+                            <li><a href="SellerIndex.php">Home</a></li>
+                            <li><a href="cars.php" class="active">Add Vehicles</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                              
+
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="about.html">About Us</a>
-                                    <a class="dropdown-item" href="blog.html">Blog</a>
-                                    <a class="dropdown-item" href="team.html">Team</a>
-                                    <a class="dropdown-item" href="testimonials.html">Testimonials</a>
-                                    <a class="dropdown-item" href="faq.html">FAQ</a>
-                                    <a class="dropdown-item" href="terms.html">Terms</a>
+                                    <a class="dropdown-item" href="about.php">About Us</a>
+                                    <a class="dropdown-item" href="blog.php">Blog</a>
+                                    <a class="dropdown-item" href="team.php">Team</a>
+                                    <a class="dropdown-item" href="testimonials.php">Testimonials</a>
+                                    <a class="dropdown-item" href="faq.php">FAQ</a>
+                                    <a class="dropdown-item" href="terms.php">Terms</a>
                                 </div>
                             </li>
-                            <li><a href="contact.html">Contact</a></li> 
-                        </ul>        
+                            <li><a href="contact.php">Contact</a></li>
+                        </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
@@ -82,7 +82,7 @@
                         <br>
                         <br>
                         <h2>Our <em>Vehicles</em></h2>
-                        <p>The Best platform to buy new and Old/Used Vehicles</p>
+                        <p>The Best platform to Sell your Old/Used Vehicles</p>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
     <!-- ***** Call to Action End ***** -->
 
     <!-- ***** Fleet Starts ***** -->
-    <section class="section" id="contact-us" style="margin-top: 0">
+    <section class="section" id="contact-us"  style="margin-top: 50; position:absolute; left:330px;top:350px; width:1500px ">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12">
@@ -131,6 +131,7 @@
                               <div class="col-md-6 col-sm-12" >
                                   <fieldset>
                                     <select>
+                                      <option disabled>Fuel Type</option>
                                         <option>Petrol</option>
                                         <option>Diesel</option>
                                         <option>Electric</option>
@@ -142,7 +143,33 @@
                                     <input name="Engine Size" type="text" id="Engine Size" placeholder="Engine Size*" required="">
                                   </fieldset>
                                 </div>
-                                <div class="col-md-md ">
+                                  <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                      <input name="Insurance Id" type="text" id="Insurance" placeholder="Insurance Id*" required="">
+                                    </fieldset>
+                                  </div>
+                                  <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                      <input name="Insurance Plan" type="text" id="Insurance Plan" placeholder="Insurance Plan*" required="">
+                                    </fieldset>
+                                  </div>
+                                  <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                      <input name="Insurance Plan Type" type="text" id="Insurance Plan Type" placeholder="Insurance Plan Type*" required="">
+                                    </fieldset>
+                                  </div>
+                                  <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                      <fieldset>
+                                        <select>
+                                          <option disabled>Insurance Claim Status</option>
+                                            <option>Claimed</option>
+                                            <option>Unclaimed</option>
+                                        </select>
+                                      </fieldset>
+                                    </fieldset>
+                                  </div>
+                                  <div class="col-md-md ">
                                     <fieldset>
                                       <input name="image" type="file">
                                     </fieldset>
@@ -166,10 +193,9 @@
     </section>
     <!-- ***** Fleet Ends ***** -->
 
-    
     <!-- ***** Footer Start ***** -->
     <footer>
-        <div class="container">
+        <div class="container" >
             <div class="row">
                 <div class="col-lg-12">
                     <p>
@@ -192,10 +218,10 @@
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/mixitup.js"></script>
     <script src="assets/js/accordions.js"></script>
-    
+
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
 

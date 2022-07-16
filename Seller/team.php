@@ -42,25 +42,25 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="CustomerIndex.html" class="logo">Auto<em>Trade</em></a>
+                        <a href="SellerIndex.php" class="logo">Auto<em>Trade</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="CustomerIndex.html">Home</a></li>
-                            <li><a href="cars.html">Vehicles</a></li>
+                            <li><a href="SellerIndex.php">Home</a></li>
+                            <li><a href="cars.php">Add Vehicles</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                               
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item"  href="about.html">About Us</a>
-                                    <a class="dropdown-item" href="blog.html">Blog</a>
-                                    <a class="dropdown-item active" href="team.html">Team</a>
-                                    <a class="dropdown-item" href="testimonials.html">Testimonials</a>
-                                    <a class="dropdown-item" href="faq.html">FAQ</a>
-                                    <a class="dropdown-item" href="terms.html">Terms</a>
+                                    <a class="dropdown-item"  href="about.php">About Us</a>
+                                    <a class="dropdown-item" href="blog.php">Blog</a>
+                                    <a class="dropdown-item active" href="team.php">Team</a>
+                                    <a class="dropdown-item" href="testimonials.php">Testimonials</a>
+                                    <a class="dropdown-item" href="faq.php">FAQ</a>
+                                    <a class="dropdown-item" href="terms.php">Terms</a>
                                 </div>
                             </li>
-                            <li><a href="contact.html">Contact</a></li> 
+                            <li><a href="contact.php">Contact</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
