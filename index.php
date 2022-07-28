@@ -56,16 +56,16 @@
                     <input type="password" name="password" placeholder="Password" />
                     <!-- <a href="#">Forgot your password?</a> -->
                     <input type="submit" name="login" value="Sign In" class="but" style="border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
-	color: #FFFFFF;
-	font-size: 12px;
-	font-weight: bold;
-	padding: 12px 45px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
-    ">
+                    border: 1px solid #FF4B2B;
+                    background-color: #FF4B2B;
+                    color: #FFFFFF;
+                    font-size: 12px;
+                    font-weight: bold;
+                    padding: 12px 45px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    transition: transform 80ms ease-in;
+                    ">
                 </form>
             </div>
             <div class="overlay-container">
