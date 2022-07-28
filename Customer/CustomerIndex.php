@@ -16,8 +16,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <?php session_start();?>
-
+        <?php session_start();?>
     </head>
     
     <body>
@@ -48,7 +47,7 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="CustomerIndex.php" class="active">Home</a></li>
-                            <li><a href="cars.php">Vehicles </a></li>
+                            <li><a href="cars.php">Vehicles</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                               
@@ -64,7 +63,7 @@
                             
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Profile</a>
-                              <?php 
+                              <?php
                                 require '../DatabaseConnection/dbcon.php';
                                 $mail=$_SESSION['email'];
                                 $result=mysqli_query($conn,"SELECT `name` from `customer` where `email`='$mail'");
@@ -144,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <!-- <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
                             <img src="assets/images/product-2-720x480.jpg" alt="">
@@ -167,8 +166,8 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
+                </div> -->
+                <!-- <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
                             <img src="assets/images/product-3-720x480.jpg" alt="">
@@ -191,7 +190,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <br>
@@ -400,6 +399,6 @@
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
+    
   </body>
 </html>

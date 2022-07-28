@@ -200,7 +200,7 @@
                 <div class="col-lg-12">
                     <p>
                         Copyright © 2020  AutoTrade
-                        - Webiste by: <a href="https://www.SSSS.com/">SSSS.com</a>
+                        - Website by: <a href="https://www.SSSS.com/">SSSS.com</a>
                     </p>
                 </div>
             </div>

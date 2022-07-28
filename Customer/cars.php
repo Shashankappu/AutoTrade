@@ -293,7 +293,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <!-- <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
                             <img src="assets/images/product-2-720x480.jpg" alt="">
@@ -413,7 +413,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <br>

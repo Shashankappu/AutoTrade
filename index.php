@@ -117,9 +117,8 @@
         if($nummerOfrowsOfmng>0)
         {
           if( $row1['password'] == md5($pass)){
-             
-             
-              ?> <script>alert("Logged In Succesfully");window.location='Seller/SellerIndex.php'</script><?php
+              ?>
+              <script>alert("Logged In Succesfully");window.location='Seller/SellerIndex.php'</script><?php
           }
           else{ ?>
           <script>
