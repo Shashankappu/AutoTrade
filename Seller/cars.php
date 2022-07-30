@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php session_start(); ?>
 
     </head>
     
@@ -96,7 +97,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="contact-form section-bg" style="background-image: url(assets/images/contact-1-720x480.jpg)">
-                        <form id="contact" action="" method="post">
+                        <form id="contact" method="post">
                           <div class="row">
                             <div class="col-md-6 col-sm-12" >
                               <fieldset>
@@ -105,66 +106,71 @@
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="Manufacturing year" type="text" id="Manufacturing year"  placeholder="Manufacturing year*" required="">
+                                <input name="Manufacturing_year" type="date" id="Manufacturing year"  placeholder="Manufacturing year*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12" >
                                 <fieldset>
-                                  <input name="Model No" type="text" id="Model No" placeholder="Model No*" required="">
+                                  <input name="Model_No" type="number" id="Model No" placeholder="Model No*" required="">
                                 </fieldset>
                               </div>
                               <div class="col-md-6 col-sm-12">
                                 <fieldset>
-                                  <input name="Model Name" type="text" id="Model Name" placeholder="Model Name*" required="">
+                                  <input name="Model_Name" type="text" id="Model Name" placeholder="Model Name*" required="">
+                                </fieldset>
+                              </div>
+                              <div class="col-md-6 col-sm-12">
+                                <fieldset>
+                                  <input name="price" type="text" placeholder="price" required="">
                                 </fieldset>
                               </div>
                               <div class="col-md-6 col-sm-12" >
                                 <fieldset>
-                                  <input name="Mileage" type="text" id="Mileage" placeholder=" Mileage*" required="">
+                                  <input name="Mileage" type="number" id="Mileage" placeholder=" Mileage*" required="">
                                 </fieldset>
                               </div>
                               <div class="col-md-6 col-sm-12">
                                 <fieldset>
-                                  <input name="Odometer Reading " type="text" id="Odometer Reading "  placeholder="Odometer Reading*" required="">
+                                  <input name="Odometer_Reading" type="number" id="Odometer Reading "  placeholder="Odometer Reading*" required="">
                                 </fieldset>
                               </div>
                               <div class="col-md-6 col-sm-12" >
                                   <fieldset>
-                                    <select>
+                                    <select name="fuel_type">
                                       <option disabled>Fuel Type</option>
-                                        <option>Petrol</option>
-                                        <option>Diesel</option>
-                                        <option>Electric</option>
+                                        <option value="Petrol">Petrol</option>
+                                        <option value="Diesel">Diesel</option>
+                                        <option value="Electric">Electric</option>
                                     </select>
                                   </fieldset>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                   <fieldset>
-                                    <input name="Engine Size" type="text" id="Engine Size" placeholder="Engine Size*" required="">
+                                    <input name="Engine_Size" type="text" id="Engine Size" placeholder="Engine Size*" required="">
                                   </fieldset>
                                 </div>
                                   <div class="col-md-6 col-sm-12">
                                     <fieldset>
-                                      <input name="Insurance Id" type="text" id="Insurance" placeholder="Insurance Id*" required="">
+                                      <input name="Insurance_Id" type="text" id="Insurance" placeholder="Insurance Id*" required="">
                                     </fieldset>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <fieldset>
-                                      <input name="Insurance Plan" type="text" id="Insurance Plan" placeholder="Insurance Plan*" required="">
+                                      <input name="Insurance_Plan" type="text" id="Insurance Plan" placeholder="Insurance Plan*" required="">
                                     </fieldset>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <fieldset>
-                                      <input name="Insurance Plan Type" type="text" id="Insurance Plan Type" placeholder="Insurance Plan Type*" required="">
+                                      <input name="Insurance_Plan_Type" type="text" id="Insurance Plan Type" placeholder="Insurance Plan Type*" required="">
                                     </fieldset>
                                   </div>
                                   <div class="col-md-6 col-sm-12">
                                     <fieldset>
                                       <fieldset>
-                                        <select>
+                                        <select name="claim">
                                           <option disabled>Insurance Claim Status</option>
-                                            <option>Claimed</option>
-                                            <option>Unclaimed</option>
+                                            <option value="Claimed">Claimed</option>
+                                            <option value="Unclaimed">Unclaimed</option>
                                         </select>
                                       </fieldset>
                                     </fieldset>
@@ -174,27 +180,50 @@
                                       <input name="image" type="file">
                                     </fieldset>
                                   </div>
-                            <div class="col-lg-12">
+                            <!-- <div class="col-lg-12">
                               <fieldset>
                                 <textarea name="Description" rows="6" id="Description" placeholder=" Vehicle Description" required=""></textarea>
                               </fieldset>
-                            </div>
+                            </div> -->
                             <div class="col-lg-12">
                               <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">Add Vehicle</button>
+                                <button name="save" type="submit" class="main-button">Add Vehicle</button>
                               </fieldset>
                             </div>
                           </div>
                         </form>
+                        <?php 
+                        require '../DatabaseConnection/dbcon.php';
+                        
+                        if(isset($_POST['save'])){
+                          $own=$_POST['Ownertype'];
+                          $mdno=$_POST['Model_No'];
+                          $date=$_POST['Manufacturing_year'];
+                          $mdnam=$_POST['Model_Name'];
+                          $mil=$_POST['Mileage'];
+                          $price=$_POST['price'];
+                          $od=$_POST['Odometer_Reading'];
+                          $fue=$_POST['fuel_type'];
+                          $eng=$_POST['Engine_Size'];
+                          $ind=$_POST['Insurance_Id'];
+                          $indp=$_POST['Insurance_Plan'];
+                          $indpt=$_POST['Insurance_Plan_Type'];
+                          $claim=$_POST['claim'];
+                          $img=$_POST['image'];
+                          $sel_id=$_SESSION['id'];
+                          $conn->query("INSERT into vehicle values('$mdno','$mdnam','$price','$own','$date','$mil','$od','$fue','$eng','$img')") or die($conn->error);
+                          $conn->query("INSERT into insurance values('$ind','$mdno','$indp','$indpt','$claim')") or die($conn->error);
+                          $conn->query("INSERT into link values('$sel_id','$mdno')") or die($conn->error);
+                          ?><script>alert("Vehicle added successfully");window.location='SellerIndex.php';</script>
+                          <?php
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ***** Fleet Ends ***** -->
-
-    <!-- ***** Footer Start ***** -->
-    <footer>
+        <br>
+        <br>
         <div class="container" >
             <div class="row">
                 <div class="col-lg-12">
@@ -205,7 +234,12 @@
                 </div>
             </div>
         </div>
-    </footer>
+   
+    </section>
+    <!-- ***** Fleet Ends ***** -->
+
+    <!-- ***** Footer Start ***** -->
+    
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>

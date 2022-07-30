@@ -74,15 +74,22 @@
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Call to Action Start ***** -->
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+    <?php 
+                    require '../DatabaseConnection/dbcon.php';
+                    $mod=$_REQUEST['myVar'];
+                    $result=$conn->query("SELECT * from vehicle where model_no=$mod") or die($conn->error);
+                    $row=$result->fetch_array();
+                ?>
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/<?php echo $row['image'] ?>">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2><small><del>$12 999</del></small> <em>$11 779</em></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        
+                        <h2> <em>₹ <?php echo $row['price'] ?>/-</em></h2>
+                        <p><?php echo $row['model_name'] ?></p>
                     </div>
                 </div>
             </div>
@@ -144,55 +151,48 @@
                        <div class="col-sm-6">
                             <label>Owner Type</label>
                        
-                            <p>2nd Owner</p>
+                            <p><?php echo $row['owner_type'] ?></p>
                        </div>
 
                        <div class="col-sm-6">
                             <label>Manufacturing year</label>
                        
-                            <p>Lorem ipsum dolor sit</p>
+                            <p><?php echo $row['manf_year'] ?></p>
                        </div>
 
                        <div class="col-sm-6">
                             <label> Model No</label>
                        
-                            <p>2829192</p>
+                            <p><?php echo $row['model_no'] ?></p>
                        </div>
                        <div class="col-sm-6">
                         <label> Model Name</label>
                    
-                        <p>Lorem ipsum dolor sit</p>
+                        <p><?php echo $row['model_name'] ?></p>
                    </div>
-
-
-                       <div class="col-sm-6">
-                            <label>Last service</label>
-                       
-                            <p>12/2021</p>
-                       </div>
 
                        <div class="col-sm-6">
                             <label>Odometer Reading</label>
                        
-                            <p>8000 km</p>
+                            <p><?php echo $row['odometer'] ?>km</p>
                        </div>
 
                        <div class="col-sm-6">
                             <label>Fuel Type</label>
                        
-                            <p>Diesel</p>
+                            <p><?php echo $row['fuel_type'] ?></p>
                        </div>
 
                        <div class="col-sm-6">
                             <label>Engine size</label>
                        
-                            <p>1000 cc</p>
+                            <p><?php echo $row['engine_size'] ?> cc</p>
                        </div>
 
                        <div class="col-sm-6">
                             <label>Mileage</label>
                        
-                            <p>~19kmpl</p>
+                            <p>~<?php echo $row['mileage'] ?>kmpl</p>
                        </div>
 
 
@@ -252,12 +252,14 @@
                   </article> -->
                   <article id='tabs-4'>
                     <h4>Contact Details</h4>
-
+                  <?php 
+                  $row2=$conn->query("select * from seller s,link l where l.model_no=$mod and l.sel_id=s.sel_id")->fetch_array() or die($conn->error);
+                  ?>
                     <div class="row">   
                         <div class="col-sm-6">
                             <label>Name</label>
 
-                            <p>John Smith</p>
+                            <p><?php echo $row2['name'] ?></p>
                         </div>
                         <!-- <div class="col-sm-6">
                             <label>Phone</label>
@@ -266,11 +268,11 @@
                         <!-- </div> -->
                         <div class="col-sm-6">
                             <label>Mobile phone</label>
-                            <p>456789123 </p>
+                            <p><?php echo $row2['ph_no'] ?> </p>
                         </div>
                         <div class="col-sm-6">
                             <label>Email</label>
-                            <p><a href="#">john@carsales.com</a></p>
+                            <p><a href="#"><?php echo $row2['email'] ?></a></p>
                         </div>
                     </div>
                   </article>
@@ -287,7 +289,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        Copyright © 2020 AutpTrade
+                        Copyright © 2020 AutoTrade
                         - Website by: <a href="https://www.SSSS.com/">SSSS.com</a>
                     </p>
                 </div>

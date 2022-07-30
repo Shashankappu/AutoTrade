@@ -10,12 +10,6 @@
             <div class="form-container sign-up-container">
                 <form method="post">
                     <h1>Create Account</h1>
-                    <!-- <div class="social-container">
-                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <span>or use your email for registration</span> -->
                     <select name="user_type">
                         <option disabled>Select User Type</option>
                         <option value="Customer">Customer</option>
@@ -49,7 +43,7 @@
                     <span>or use your account</span> -->
                     <select name="user_type">
                         <option disabled>Select User Type</option>
-                        <option value="Customer">Customer</option>
+                        <option selected value="Customer">Customer</option>
                         <option value="Seller">Seller</option>
                     </select>
                     <input type="email" name="email" placeholder="Email" />
@@ -86,17 +80,14 @@
         <?php 
             require 'DatabaseConnection/dbcon.php';
             if(isset($_POST['save'])){
-                $user_type=$_POST['user_type'];
-                $name=$_POST['name'];
-                $email=$_POST['email'];
-                $ph_no=$_POST['phonenumber'];
-                $pass=$_POST['password'];
-                if($user_type=='Customer'){
-                    $conn->query("INSERT into customer values(' ','$name','$email','$ph_no','".md5($pass)."')");
-                }
-                else{
-                    $conn->query("INSERT into seller values(' ','$name','$email','$ph_no','".md5($pass)."')");
-                }
+                
+                $_SESSION['ph_no']=$_POST['phonenumber'];
+                $_SESSION['user_type']=$_POST['user_type'];
+                $_SESSION['name']=$_POST['name'];
+                $_SESSION['email']=$_POST['email'];
+                $_SESSION['password']=$_POST['password'];
+                
+                ?><script>window.location= 'otp/otp.php';</script><?php
             }
         else if(isset($_POST['login'])){
                 $user_type=$_POST['user_type'];
@@ -117,8 +108,8 @@
         if($nummerOfrowsOfmng>0)
         {
           if( $row1['password'] == md5($pass)){
-              ?>
-              <script>alert("Logged In Succesfully");window.location='Seller/SellerIndex.php'</script><?php
+              $_SESSION['id']=$row1['sel_id'];?>
+              <script>window.location='Seller/SellerIndex.php'</script><?php
           }
           else{ ?>
           <script>
@@ -129,8 +120,8 @@
         }
         else if($nummerOfrowsOfuser>0){
           if( $row2['password'] == md5($pass)){
-            
-            ?> <script>alert("Logged In Succesfully");window.location='Customer/CustomerIndex.php'</script><?php
+            $_SESSION['id']=$row1['cus_id'];
+            ?> <script>window.location='Customer/CustomerIndex.php'</script><?php
         }
         else{ ?>
         <script>

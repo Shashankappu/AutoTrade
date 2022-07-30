@@ -70,7 +70,7 @@
                               ?>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" ><?php echo $row['name'];?></a>
-                                    <a class="dropdown-item" ><?php echo $_SESSION['email'];?></a>
+                                    <a class="dropdown-item" ><?php echo $mail;?></a>
                                     <a class="dropdown-item" href="logout.php">Logout</a>
                                 </div>
                             </li>
@@ -118,78 +118,37 @@
                 </div>
             </div>
             <div class="row">
+            <?php 
+                    require '../DatabaseConnection/dbcon.php';
+                    $result=$conn->query("SELECT * from vehicle") or die($conn->error);
+                    while($row=$result->fetch_array()){
+                ?>
                 <div class="col-lg-4">
+                
                     <div class="trainer-item">
+                    
                         <div class="image-thumb">
-                            <img src="assets/images/product-1-720x480.jpg" alt="">
+                            <img src="assets/images/<?php echo $row['image'];?>" alt="">
                         </div>
                         <div class="down-content">
                             <span>
-                                <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
+                                 &nbsp; <sup>₹ </sup><?php echo $row['price']; ?>/-
                             </span>
 
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                            <h4><?php echo $row['model_name']; ?></h4>
 
                             <p>
-                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-dashboard"></i> <?php echo $row['odometer']; ?>km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> <?php echo $row['engine_size'];?> cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i><?php echo $row['fuel_type'];?> &nbsp;&nbsp;&nbsp;
                             </p>
 
                             <ul class="social-icons">
-                                <li><a href="car-details.php">+ View Vehicle</a></li>
+                                <li><a href="car-details.php?myVar=<?php echo $row['model_no']; ?>" onclick="POST">+ View Vehicle</a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/product-2-720x480.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>
-                                <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
-                            </span>
-
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-
-                            <p>
-                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
-                            </p>
-
-                            <ul class="social-icons">
-                                <li><a href="car-details.php">+ View Vehicle</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/product-3-720x480.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>
-                                <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
-                            </span>
-
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
-
-                            <p>
-                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
-                            </p>
-
-                            <ul class="social-icons">
-                                <li><a href="car-details.php">+ View Vehicle</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
+                </div><?php }?>
             </div>
 
             <br>
