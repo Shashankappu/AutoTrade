@@ -80,7 +80,7 @@
                     $result=$conn->query("SELECT * from vehicle where model_no=$mod") or die($conn->error);
                     $row=$result->fetch_array();
                 ?>
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/<?php echo $row['image'] ?>">
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/<?php echo $row['image'] ?>)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -195,30 +195,6 @@
                             <p>~<?php echo $row['mileage'] ?>kmpl</p>
                        </div>
 
-
-                       <!-- <div class="col-sm-6">
-                            <label>Gearbox</label>
-                       
-                            <p>Manual</p>
-                       </div> -->
-
-                       <!-- <div class="col-sm-6">
-                            <label>Number of seats</label>
-                       
-                            <p>4</p>
-                       </div> -->
-<!-- 
-                       <div class="col-sm-6">
-                            <label>Doors</label>
-                       
-                            <p>2/3</p>
-                       </div> -->
-
-                       <!-- <div class="col-sm-6">
-                            <label>Color</label>
-                       
-                            <p>Black</p>
-                       </div> -->
                     </div>
                   </article>
                   <article id='tabs-2'>
@@ -226,30 +202,7 @@
                     
                     <p>- Colour coded bumpers <br> - Tinted glass <br> - Immobiliser <br> - Central locking - remote <br> - Passenger airbag <br> - Electric windows <br> - Rear head rests <br> - Radio <br> - CD player <br> - Ideal first car <br> - Warranty <br> - High level brake light <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat                     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
                    </article>
-                  <!-- <article id='tabs-3'>
-                    <h4>Vehicle Extras</h4>
 
-                    <div class="row">   
-                        <div class="col-sm-6">
-                            <p>ABS</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Leather seats</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Power Assisted Steering</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Electric heated seats</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>New HU and AU</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Xenon headlights</p>
-                        </div>
-                    </div>
-                  </article> -->
                   <article id='tabs-4'>
                     <h4>Contact Details</h4>
                   <?php 
@@ -261,11 +214,7 @@
 
                             <p><?php echo $row2['name'] ?></p>
                         </div>
-                        <!-- <div class="col-sm-6">
-                            <label>Phone</label>
-
-                            <p>123-456-789 </p> -->
-                        <!-- </div> -->
+                        
                         <div class="col-sm-6">
                             <label>Mobile phone</label>
                             <p><?php echo $row2['ph_no'] ?> </p>

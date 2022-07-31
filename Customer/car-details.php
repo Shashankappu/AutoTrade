@@ -74,15 +74,21 @@
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Call to Action Start ***** -->
-    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+    <?php 
+                    require '../DatabaseConnection/dbcon.php';
+                    $mod=$_REQUEST['myVar'];
+                    $result=$conn->query("SELECT * from vehicle where model_no=$mod") or die($conn->error);
+                    $row=$result->fetch_array();
+                ?>
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/<?php echo $row['image'] ?>)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2><small><del>$12 999</del></small> <em>$11 779</em></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        <h2><em>₹ <?php echo $row['price'] ?>/-</em></h2>
+                        <p><?php echo $row['model_name'] ?></p>
                     </div>
                 </div>
             </div>
@@ -144,81 +150,52 @@
                        <div class="col-sm-6">
                             <label>Owner Type</label>
                        
-                            <p>2nd Owner</p>
+                            <p><?php echo $row['owner_type'] ?></p>
                        </div>
 
                        <div class="col-sm-6">
                             <label>Manufacturing year</label>
                        
-                            <p>Lorem ipsum dolor sit</p>
+                            <p><?php echo $row['manf_year'] ?></p>
                        </div>
 
                        <div class="col-sm-6">
                             <label> Model No</label>
                        
-                            <p>2829192</p>
+                            <p><?php echo $row['model_no'] ?></p>
                        </div>
                        <div class="col-sm-6">
                         <label> Model Name</label>
                    
-                        <p>Lorem ipsum dolor sit</p>
+                        <p><?php echo $row['model_name'] ?></p>
                    </div>
-
-
-                       <div class="col-sm-6">
-                            <label>Last service</label>
-                       
-                            <p>12/2021</p>
-                       </div>
 
                        <div class="col-sm-6">
                             <label>Odometer Reading</label>
                        
-                            <p>8000 km</p>
+                            <p><?php echo $row['odometer'] ?>km</p>
                        </div>
 
                        <div class="col-sm-6">
                             <label>Fuel Type</label>
                        
-                            <p>Diesel</p>
+                            <p><?php echo $row['fuel_type'] ?></p>
                        </div>
 
                        <div class="col-sm-6">
                             <label>Engine size</label>
                        
-                            <p>1000 cc</p>
+                            <p><?php echo $row['engine_size'] ?> cc</p>
                        </div>
 
                        <div class="col-sm-6">
                             <label>Mileage</label>
                        
-                            <p>~19kmpl</p>
+                            <p>~<?php echo $row['mileage'] ?>kmpl</p>
                        </div>
 
 
-                       <!-- <div class="col-sm-6">
-                            <label>Gearbox</label>
-                       
-                            <p>Manual</p>
-                       </div> -->
-
-                       <!-- <div class="col-sm-6">
-                            <label>Number of seats</label>
-                       
-                            <p>4</p>
-                       </div> -->
-<!-- 
-                       <div class="col-sm-6">
-                            <label>Doors</label>
-                       
-                            <p>2/3</p>
-                       </div> -->
-
-                       <!-- <div class="col-sm-6">
-                            <label>Color</label>
-                       
-                            <p>Black</p>
-                       </div> -->
+                      
                     </div>
                   </article>
                   <article id='tabs-2'>
@@ -226,51 +203,26 @@
                     
                     <p>- Colour coded bumpers <br> - Tinted glass <br> - Immobiliser <br> - Central locking - remote <br> - Passenger airbag <br> - Electric windows <br> - Rear head rests <br> - Radio <br> - CD player <br> - Ideal first car <br> - Warranty <br> - High level brake light <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat                     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
                    </article>
-                  <!-- <article id='tabs-3'>
-                    <h4>Vehicle Extras</h4>
-
-                    <div class="row">   
-                        <div class="col-sm-6">
-                            <p>ABS</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Leather seats</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Power Assisted Steering</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Electric heated seats</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>New HU and AU</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p>Xenon headlights</p>
-                        </div>
-                    </div>
-                  </article> -->
+                  
                   <article id='tabs-4'>
                     <h4>Contact Details</h4>
-
+                    <?php 
+                  $row2=$conn->query("select * from seller s,link l where l.model_no=$mod and l.sel_id=s.sel_id")->fetch_array() or die($conn->error);
+                  ?>
                     <div class="row">   
                         <div class="col-sm-6">
                             <label>Name</label>
 
-                            <p>John Smith</p>
+                            <p><?php echo $row2['name'] ?></p>
                         </div>
-                        <!-- <div class="col-sm-6">
-                            <label>Phone</label>
 
-                            <p>123-456-789 </p> -->
-                        <!-- </div> -->
                         <div class="col-sm-6">
                             <label>Mobile phone</label>
-                            <p>456789123 </p>
+                            <p><?php echo $row2['ph_no'] ?> </p>
                         </div>
                         <div class="col-sm-6">
                             <label>Email</label>
-                            <p><a href="#">john@carsales.com</a></p>
+                            <p><a href="#"><?php echo $row2['email'] ?></p>
                         </div>
                     </div>
                   </article>
@@ -287,7 +239,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        Copyright © 2020 AutpTrade
+                        Copyright © 2020 AutoTrade
                         - Website by: <a href="https://www.SSSS.com/">SSSS.com</a>
                     </p>
                 </div>
