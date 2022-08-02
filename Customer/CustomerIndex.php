@@ -113,7 +113,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
                         <h2>Featured <em>Vehicles</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
+                        <img src="assets/images/line-dec.png"  alt="">
                         <p>The latest additions that not only look great but are also reasonably priced, take a look!</p>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                        <img src="assets/images/<?php echo $row['image'];?>" alt="">
+                        <img src="assets/images/<?php echo $row['image'];?>" style="height: 250px;width: 360px;" alt="">
                         </div>
                         <div class="down-content">
                             <span>
@@ -138,7 +138,7 @@
 
                             <p>
                             <i class="fa fa-dashboard"></i> <?php echo $row['odometer']; ?>km &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cube"></i> <?php echo $row['engine_size'];?> cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> <?php echo $row['engine_size'];?> hp/cc &nbsp;&nbsp;&nbsp;
                                 <i class="fa fa-cog"></i><?php echo $row['fuel_type'];?> &nbsp;&nbsp;&nbsp;
                             </p>
 

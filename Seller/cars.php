@@ -180,11 +180,6 @@
                                       <input name="image" type="file">
                                     </fieldset>
                                   </div>
-                            <!-- <div class="col-lg-12">
-                              <fieldset>
-                                <textarea name="Description" rows="6" id="Description" placeholder=" Vehicle Description" required=""></textarea>
-                              </fieldset>
-                            </div> -->
                             <div class="col-lg-12">
                               <fieldset>
                                 <button name="save" type="submit" class="main-button">Add Vehicle</button>
@@ -192,7 +187,7 @@
                             </div>
                           </div>
                         </form>
-                        <?php 
+                        <?php
                         require '../DatabaseConnection/dbcon.php';
                         
                         if(isset($_POST['save'])){

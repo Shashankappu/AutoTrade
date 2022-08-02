@@ -81,7 +81,7 @@
                         <br>
                         <br>
                         <h2>Meet our <em>Team</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p>The professionals that make AutoTrade the way you see it</p>
                     </div>
                 </div>
             </div>
@@ -95,13 +95,10 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/team-image-1-646x680.jpg" alt="">
-                        </div>
                         <div class="down-content">
-                            <span>CEO</span>
-                            <h4>John Doe</h4>
-                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+                        <span>Customer Support</span>
+                            <h4>Shashank S P</h4>
+                            <p>Backend developer</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -113,13 +110,10 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/team-image-2-646x680.jpg" alt="">
-                        </div>
                         <div class="down-content">
-                            <span>Customer Support</span>
-                            <h4>Jane Smith</h4>
-                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+                        <span>Customer Support</span>
+                            <h4>Shubham Kumar</h4>
+                            <p>Frontend developer and part of Database design team.</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -131,13 +125,10 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/team-image-3-646x680.jpg" alt="">
-                        </div>
                         <div class="down-content">
-                            <span>Customer Support</span>
-                            <h4>Kate Johnson</h4>
-                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+                        <span>Customer Support</span>
+                            <h4>Sandeep Rathod</h4>
+                            <p>Development team.</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -150,13 +141,10 @@
 
                 <div class="col-md-3 col-sm-6">
                     <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/team-image-4-646x680.jpg" alt="">
-                        </div>
                         <div class="down-content">
-                            <span>Customer Support</span>
-                            <h4>Mark Green</h4>
-                            <p>Vestibulum id est eu felis vulputate hendrerit. Suspendisse dapibus turpis in dui pulvinar imperdiet. Nunc consectetur.</p>
+                        <span>Customer Support</span>
+                            <h4>Sachin</h4>
+                            <p>Manual testing team</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>

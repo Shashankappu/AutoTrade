@@ -128,7 +128,7 @@
                     <div class="trainer-item">
                     
                         <div class="image-thumb">
-                            <img src="assets/images/<?php echo $row['image'];?>" alt="">
+                            <img src="assets/images/<?php echo $row['image'];?>" style="height: 250px;width: 360px;" alt="">
                         </div>
                         <div class="down-content">
                             <span>
@@ -139,7 +139,7 @@
 
                             <p>
                                 <i class="fa fa-dashboard"></i> <?php echo $row['odometer']; ?>km &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cube"></i> <?php echo $row['engine_size'];?> cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> <?php echo $row['engine_size'];?> hp/cc &nbsp;&nbsp;&nbsp;
                                 <i class="fa fa-cog"></i><?php echo $row['fuel_type'];?> &nbsp;&nbsp;&nbsp;
                             </p>
 
@@ -154,7 +154,7 @@
             <br>
 
             <div class="main-button text-center">
-                <a href="cars.php">View Vehicles</a>
+                <a href="cars.php">Add a Vehicle</a>
             </div>
         </div>
     </section>

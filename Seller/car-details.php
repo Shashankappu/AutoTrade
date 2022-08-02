@@ -186,7 +186,7 @@
                        <div class="col-sm-6">
                             <label>Engine size</label>
                        
-                            <p><?php echo $row['engine_size'] ?> cc</p>
+                            <p><?php echo $row['engine_size'] ?> hp/cc</p>
                        </div>
 
                        <div class="col-sm-6">

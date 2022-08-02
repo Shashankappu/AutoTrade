@@ -55,9 +55,9 @@
                                     <a class="dropdown-item"  href="about.php">About Us</a>
                                     <a class="dropdown-item" href="blog.php">Blog</a>
                                     <a class="dropdown-item" href="team.php">Team</a>
-                                    <a class="dropdown-item" href="testimonials.php">Testimonials</a>
+                                    <a class="dropdown-item active" href="testimonials.php">Testimonials</a>
                                     <a class="dropdown-item" href="faq.php">FAQ</a>
-                                    <a class="dropdown-item active" href="terms.php">Terms</a>
+                                    <a class="dropdown-item" href="terms.php">Terms</a>
                                 </div>
                             </li>
                             <li><a href="contact.php">Contact</a></li> 
@@ -80,45 +80,69 @@
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2>Read our <em>Terms</em></h2>
-                        <p>Welcome to AutoTrade, the following are our Terms and Conditions.</p>
+                        <h2>Read our <em>Testimonials</em></h2>
+                        <p>Hear what our hundreds of customers have to say about our services!</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ***** Our Classes Start ***** -->
-    <section class="section" id="our-classes">
+     <!-- ***** Testimonials Item Start ***** -->
+    <section class="section" id="features">
         <div class="container">
             <br>
             <br>
             <br>
-          
-            <section class='tabs-content'>
-              <article>
-              <h4>1. General Provisions</h4>
-                <p>By using this Website, You accept our Terms & Conditions. This is a legally binding agreement between You and AutoTrade; please read it carefully.</p>
-
-                <br>
-                    
-                <h4>2. Scope of Services</h4>
-                <p>AutoTrade will provide participants means to advertise their vehicle on the site (sellers) and will display said vehicle for an agreed amount of time only.</p>
-
-                <br>
-                
-                <h4>3. Buying and Selling Vehicles</h4>
-                <p>AutoTrade is not a party to any transaction between vehicle buyers and sellers that originates on or through this Website. At no time shall AutoTrade have any obligations or liabilities in respect of such transaction.</p>
-
-                <br>
-                
-                <h4>4. Content Requirements & Responsibility of Advertisements</h4>
-                <p>Users are allowed to advertise only for the sale of Passengers vehicles. Any other advertisements are not allowed and will be removed, and users are obliged to submit correct and full information about their vehicle. AutoTrade is not responsible for any damage arising from placement of false information.</p>
-              </article>
-            </section>
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="First One">
+                            </div>
+                            <div class="right-content">
+                            <h4>Alok Bhardwaj</h4>
+                                <p><em>"All staff have a very helping attitude. Fully satisfied with the service. The vehicle I purchased had exactly the same condition as was described. Will highly recommend AutoTrade to all."</em></p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="second one">
+                            </div>
+                            <div class="right-content">
+                                <h4>Nupur Pandey</h4>
+                                <p><em>"I always recommend AutoTrade. Not only have I bought two vehicles through them, but many of my friends have too after I recommended them the same."</em></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="fourth muscle">
+                            </div>
+                            <div class="right-content">
+                                <h4>Pranav Gandotra</h4>
+                                <p><em>"On the internet, there used to be a huge chaos for used vehicles and non-standardization of prices and warranty was an issue, but since AutoTrade, its just been hassle-free all around"</em></p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="training fifth">
+                            </div>
+                            <div class="right-content">
+                                <h4>Sudhanshu Yadav</h4>
+                                <p><em>"I really loved the experience with AutoTrade. The staff members were professional and courteous. Their attitude and approach was commendable. They delivered what they promised."</em></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- ***** Our Classes End ***** -->
+    <!-- ***** Testimonials Item End ***** -->
 
     <!-- ***** Footer Start ***** -->
     <footer>
