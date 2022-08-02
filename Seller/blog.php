@@ -81,7 +81,6 @@
                         <br>
                         <br>
                         <h2>Read our <em>Blog</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
                     </div>
                 </div>
             </div>
@@ -98,11 +97,11 @@
                     <section class='tabs-content'>
                       <article>
                         <img src="assets/images/blog-image-1-940x460.jpg" alt="">
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                        <h4>How To Make Smart Financial Decision When Buying Second Hand Vehicles</h4>
 
-                        <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
+                        <p><i class="fa fa-user"></i> AutoTrade Editorial Team &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 23.07.2022 09:15 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  23 comments</p>
 
-                        <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                        <p>The vehicle exchange market in India is red-hot right now. Every brand worth their manufacturing chops is putting their best products forward in a bid to garner the most of the buyers financial pie during resales.</p>
                         <div class="main-button">
                             <a href="blog-details.php">Continue Reading</a>
                         </div>
@@ -113,9 +112,9 @@
 
                       <article>
                         <img src="assets/images/blog-image-2-940x460.jpg" alt="">
-                        <h4>Aspernatur excepturi magni, placeat rerum nobis magnam libero! Soluta.</h4>
-                        <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-                        <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <h4>Third Party Car Insurance Explained.</h4>
+                        <p><i class="fa fa-user"></i> AutoTrade Editorial Team &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.06.2022 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  09 comments</p>
+                        <p>The Motor Vehicle Act is the one that governs the use of automobiles in India. While it is typically laden with legalese, breaking it down for purpose of simplicity reveals several key aspects about it.</p>
                         <div class="main-button">
                             <a href="blog-details.php">Continue Reading</a>
                         </div>
@@ -126,9 +125,9 @@
 
                       <article>
                         <img src="assets/images/blog-image-3-940x460.jpg" alt="">
-                        <h4>Sunt hic recusandae vitae explicabo quidem laudantium corrupti non adipisci nihil.</h4>
-                        <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-                        <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
+                        <h4>Tips And Tricks For Servicing Your Car.</h4>
+                        <p><i class="fa fa-user"></i> AutoTrade Editorial Team &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 14.03.2022 12:13 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  10 comments</p>
+                        <p>Most owners of vehicles in India remain quite oblivious to the maintenance schedules. They usually go by what the company dealer has directed, but this has a great imact on its resale value.</p>
                         <div class="main-button">
                             <a href="blog-details.php">Continue Reading</a>
                         </div>
@@ -149,23 +148,22 @@
 
                     <ul>
                         <li>
-                            <p><a href="blog-details.php">Dolorum corporis ullam, reiciendis inventore est repudiandae</a></p>
-                            <small><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10</small>
+                        <p><a href="blog-details.php">Petrol or CNG, which one to choose?!</a></p>
+                            <small><i class="fa fa-user"></i> Krishna Raj &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 02.08.2022 10:12</small>
                         </li>
 
                         <li><br></li>
 
                         <li>
-                            <p><a href="blog-details.php">Culpa ab quasi in rerum dolorum impedit expedita</a></p>
-                            <small><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10</small>
+                        <p><a href="blog-details.php">Eco friendly cars running on air.</a></p>
+                            <small><i class="fa fa-user"></i> Shiva Kumar &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 01.08.2022 08:10</small>
                         </li>
 
                         <li><br></li>
 
                         <li>
-                          <p><a href="blog-details.php">Explicabo soluta corrupti dolor doloribus optio dolorum</a></p>
-
-                          <small><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10</small>
+                        <p><a href="blog-details.php">Best used car for Bangalore roads.</a></p>
+                        <small><i class="fa fa-user"></i> Karan Das &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2022 12:54</small>
                         </li>
                     </ul>
                 </div>

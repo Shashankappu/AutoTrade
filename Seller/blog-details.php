@@ -80,8 +80,8 @@
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2>Single <em>blog post</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <h2><em>blog post</em></h2>
+                        
                     </div>
                 </div>
             </div>
@@ -95,21 +95,16 @@
             <br>
             <section class='tabs-content'>
               <article>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+              <h4>How To Make Smart Financial Decisions When Buying A Second Hand Vehicle</h4>
 
-                <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
+                <p><i class="fa fa-user"></i> Ravi &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2021 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
 
                 <div><img src="assets/images/blog-image-fullscren-1-1920x700.jpg" alt=""></div>
 
                 <br>
 
-                <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nihil magnam magni perferendis sit, inventore maxime architecto ab officia illum vitae veritatis asperiores laborum quaerat ratione omnis, possimus, sunt quae?</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus amet, corporis corrupti quod illum id autem assumenda nostrum quo, odio libero dolorum. Expedita, enim non voluptatibus qui veritatis iste ad? Voluptates natus dolor, minus culpa magnam! Iusto blanditiis beatae laudantium.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolor nemo optio facere impedit fugiat obcaecati blanditiis tempora inventore sapiente beatae aspernatur vitae fuga totam possimus eveniet, praesentium maiores! Dolorum illum voluptates ipsum aspernatur explicabo numquam, aliquid a amet, deleniti eos suscipit totam laudantium excepturi voluptatum fugiat eum nesciunt minus iste, expedita provident temporibus, alias possimus veritatis aut fugit? Eaque.</p>
+                <p>The first thing to keep in mind when buying a second hand vehicle is to weigh carefully, if you can afford your purchase. By this, we mean, not just in terms of the actual purchase cost, but in the overall scheme of things. You see, bringing the vehicle home is relatively easy. Once it is yours though, you’re going to have to spend on maintaining it, ensuring that it stays in the best of condition for as long as you have it. So choose smartly.</p>
+                <p>A critical aspect that most new second hand buyers tend to overlook is to check on the discounts available.. Often, these depend on specific variants or even across sellers. It is therefore important to cross-shop across all available options in the city, before locking down on a deal.</p>
 
                 <ul class="social-icons">
                     <li>Share this:</li>
@@ -136,8 +131,8 @@
                                         <img src="assets/images/features-first-icon.png" alt="First One">
                                     </div>
                                     <div class="right-content">
-                                        <h4>John Doe <small>27.07.2020 10:10</small></h4>
-                                        <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                    <h4>Piyush Verma <small>02.08.2022 10:10</small></h4>
+                                        <p><em>"These blogs have helped me a lot lately, please keep them coming!"</em></p>
                                     </div>
                                 </div>
 
@@ -147,8 +142,8 @@
                                             <img src="assets/images/features-first-icon.png" alt="First One">
                                         </div>
                                         <div class="right-content">
-                                            <h4>John Doe <small>27.07.2020 11:10</small></h4>
-                                            <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                        <h4>Narayan S<small>01.08.2022 11:30</small></h4>
+                                            <p><em>"Oh for sure, if it weren't for the AutoTrade blogs, I wouldn't have been able to get the best deal."</em></p>
                                         </div>
                                     </div>
                                 </div>
@@ -158,8 +153,8 @@
                                     <img src="assets/images/features-first-icon.png" alt="second one">
                                 </div>
                                 <div class="right-content">
-                                    <h4>John Doe <small>27.07.2020 12:10</small></h4>
-                                    <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                <h4>Aditya Dev <small>02.08.2022 12:10</small></h4>
+                                    <p><em>"Second hand vehicles often need a lot of calculations to pin point the right one, this blog emphasises on that point, hence I approve of this."</em></p>
                                 </div>
                             </li>
                         </ul>

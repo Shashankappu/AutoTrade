@@ -42,12 +42,12 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="CustomerIndex.php" class="logo">Auto<em>Trade</em></a>
+                        <a href="SellerIndex.php" class="logo">Auto<em>Trade</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="CustomerIndex.php">Home</a></li>
-                            <li><a href="cars.php">Vehicles</a></li>
+                            <li><a href="SellerIndex.php">Home</a></li>
+                            <li><a href="cars.php">Add Vehicles</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                               
@@ -81,7 +81,7 @@
                         <br>
                         <br>
                         <h2>Feel free to <em>Contact Us</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p>We are always here to listen to any queries or reviews you might have for us!</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                         <i class="fa fa-phone"></i>
                     </div>
 
-                    <h5><a href="#">+1 333 4040 5566</a></h5>
+                    <h5><a href="#">+91 91102 98510</a></h5>
 
                     <br>
                 </div>
@@ -115,7 +115,7 @@
                         <i class="fa fa-envelope"></i>
                     </div>
 
-                    <h5><a href="#">contact@company.com</a></h5>
+                    <h5><a href="#">contact@AutoTrade.com</a></h5>
 
                     <br>
                 </div>
@@ -125,7 +125,7 @@
                         <i class="fa fa-map-marker"></i>
                     </div>
 
-                    <h5>212 Barrington Court New York</h5>
+                    <h5>Bangalore</h5>
 
                     <br>
                 </div>

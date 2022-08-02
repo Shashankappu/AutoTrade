@@ -81,7 +81,7 @@
                         <br>
                         <br>
                         <h2>Read our <em>Terms</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p>Welcome to AutoTrade, the following are our Terms and Conditions.</p>
                     </div>
                 </div>
             </div>
@@ -97,23 +97,23 @@
           
             <section class='tabs-content'>
               <article>
-                <h4>1. Lorem ipsum dolor sit amet</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aspernatur natus dignissimos eos quod, odio.</p>
+              <h4>1. General Provisions</h4>
+                <p>By using this Website, You accept our Terms & Conditions. This is a legally binding agreement between You and AutoTrade; please read it carefully.</p>
 
                 <br>
                     
-                <h4>2. Lorem ipsum dolor sit amet, consectetur.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate ullam exercitationem molestiae illum? Nam magni, saepe sint maiores vitae!</p>
+                <h4>2. Scope of Services</h4>
+                <p>AutoTrade will provide participants means to advertise their vehicle on the site (sellers) and will display said vehicle for an agreed amount of time only.</p>
 
                 <br>
                 
-                <h4>3. Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum</h4>
-                <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                <h4>3. Buying and Selling Vehicles</h4>
+                <p>AutoTrade is not a party to any transaction between vehicle buyers and sellers that originates on or through this Website. At no time shall AutoTrade have any obligations or liabilities in respect of such transaction.</p>
 
                 <br>
                 
-                <h4>4. Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi suscipit commodi impedit unde accusantium nam incidunt tenetur, libero maiores enim! Nisi ex odit, totam nihil doloribus. Nemo ut, eos consequatur libero aut quas dolorum ipsa, quidem, totam dicta id possimus dolores distinctio laboriosam doloribus voluptates tenetur consectetur inventore aliquid dolorem?</p>
+                <h4>4. Content Requirements & Responsibility of Advertisements</h4>
+                <p>Users are allowed to advertise only for the sale of Passengers vehicles. Any other advertisements are not allowed and will be removed, and users are obliged to submit correct and full information about their vehicle. AutoTrade is not responsible for any damage arising from placement of false information.</p>
               </article>
             </section>
         </div>

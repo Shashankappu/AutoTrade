@@ -47,7 +47,7 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="CustomerIndex.php">Home</a></li>
-                            <li><a href="cars.php">Vehicles</a></li>
+                            <li><a href="cars.php">Add Vehicles</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                               
@@ -81,7 +81,6 @@
                         <br>
                         <br>
                         <h2>Learn more <em>About Us</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
                     </div>
                 </div>
             </div>
@@ -108,30 +107,25 @@
                     <img src="assets/images/about-image-1-940x460.jpg" alt="">
                     <h4>Our Goals</h4>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aspernatur natus dignissimos eos quod, odio.</p>
+                    <p>We have one goal: Get the best price for your vehicle. Simple selling experience.</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate ullam exercitationem molestiae illum? Nam magni, saepe sint maiores vitae!</p>
+                    <p>Sellright by Autofast evaluation methodology has been found to get you more value for your vehicle than you would selling it on your own or to a dealer. Also, the process is far simpler and safer as we can directly communicate with the registered sellers and buyers of each vehicle, which is an integral part of our end-to-end customer experience.</p>
 
-                    <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
-                   
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi suscipit commodi impedit unde accusantium nam incidunt tenetur, libero maiores enim! Nisi ex odit, totam nihil doloribus. Nemo ut, eos consequatur libero aut quas dolorum ipsa, quidem, totam dicta id possimus dolores distinctio laboriosam doloribus voluptates tenetur consectetur inventore aliquid dolorem?</p>
+                    <p>Just tell us a bit about or your vehicle, fill in the details and get a quote. We will ensure that the final offer will not go above or beyond 5 percent of this original quote</p>
                   </article>
                   <article id='tabs-2'>
                     <img src="assets/images/about-image-2-940x460.jpg" alt="">
                     <h4>Our Work</h4>
-                    <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p>We are a multi-channel auto platform with coverage and presence across vehicle types and value-added services. Our platforms operate under the brand of AutoTrade. Through these platforms, we enable used automobile customers, vehicle dealerships, vehicle OEMs and other businesses to buy and sell their vehicles in a simple and efficient manner.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut accusantium cum! Ad quisquam, aut praesentium magni pariatur ipsa! Soluta deserunt accusantium repellendus ratione quam hic facere, cupiditate iste obcaecati a, officiis ipsum aspernatur in?</p>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla a necessitatibus eos vitae quibusdam quo sunt officiis rerum voluptatibus non natus eius placeat officia vel quaerat, reprehenderit obcaecati, eaque? Repudiandae ad facere culpa accusamus aliquam ab assumenda reiciendis corrupti cum nemo, cumque molestiae corporis deserunt!</p>
+                    <p>Our vision is to create an automotive digital ecosystem which connects automobile customers, OEMs, dealers, banks, insurance companies and other stakeholders.</p>
                   </article>
                   <article id='tabs-3'>
                     <img src="assets/images/about-image-3-940x460.jpg" alt="">
                     <h4>Our Passion</h4>
-                    <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aut beatae commodi repudiandae distinctio, magnam blanditiis reiciendis vitae velit voluptatum natus, fugit quis eos dolores!</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic adipisci reiciendis quaerat qui earum aut, atque esse quisquam quis exercitationem sapiente, dolorum consequatur consequuntur voluptatibus ipsam, fuga magnam beatae optio nam. Recusandae ut aliquid, eligendi.</p>
+                    <p>One of the biggest problems what customers face today while buying second hand vehicles is to get time to reach to sellers, have a test drive, find the best vehicle within their budget, negotiate for the price, book it & reach to the seller on the delivery date to get their vehicle.</p>
+                    <p>Second hand vehicle buying (even when it’s done online) is a passionate, personal pursuit, and generation connected hence we created a tailor-made platform to provide hassle-free buying and selling experience to customers, all under one roof.</p>
                   </article>
                 </section>
               </div>
@@ -147,7 +141,7 @@
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <h2>Send us a <em>message</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
+                        <p>Need further assistance? Feel free to contact us! Also if you would like to leave a review, we would love to hear from you.</p>
                         <div class="main-button">
                             <a href="contact.php">Contact us</a>
                         </div>

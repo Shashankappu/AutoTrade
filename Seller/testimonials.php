@@ -81,7 +81,7 @@
                         <br>
                         <br>
                         <h2>Read our <em>Testimonials</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p>Hear what our hundreds of customers have to say about our services!</p>
                     </div>
                 </div>
             </div>
@@ -102,8 +102,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="First One">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                            <h4>Alok Bhardwaj</h4>
+                                <p><em>"All staff have a very helping attitude. Fully satisfied with the service. The vehicle I purchased had exactly the same condition as was described. Will highly recommend AutoTrade to all."</em></p>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -111,8 +111,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="second one">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                <h4>Nupur Pandey</h4>
+                                <p><em>"I always recommend AutoTrade. Not only have I bought two vehicles through them, but many of my friends have too after I recommended them the same."</em></p>
                             </div>
                         </li>
                     </ul>
@@ -124,8 +124,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="fourth muscle">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                <h4>Pranav Gandotra</h4>
+                                <p><em>"On the internet, there used to be a huge chaos for used vehicles and non-standardization of prices and warranty was an issue, but since AutoTrade, its just been hassle-free all around"</em></p>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -133,8 +133,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="training fifth">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                                <h4>Sudhanshu Yadav</h4>
+                                <p><em>"I really loved the experience with AutoTrade. The staff members were professional and courteous. Their attitude and approach was commendable. They delivered what they promised."</em></p>
                             </div>
                         </li>
                     </ul>

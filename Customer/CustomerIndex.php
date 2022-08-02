@@ -114,7 +114,7 @@
                     <div class="section-heading">
                         <h2>Featured <em>Vehicles</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <p>The latest additions that not only look great but are also reasonably priced, take a look!</p>
                     </div>
                 </div>
             </div>
@@ -167,16 +167,15 @@
                     <div class="section-heading dark-bg">
                         <h2>Read <em>About Us</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <p>We are a multi-channel auto platform with coverage and presence across vehicle types and value-added services. Our platforms operate under the brand of AutoTrade. Through these platforms, we enable used automobile customers, vehicle dealerships, vehicle OEMs and other businesses to buy and sell their vehicles in a simple and efficient manner. Our vision is to create an automotive digital ecosystem which connects automobile customers, OEMs, dealers, banks, insurance companies and other stakeholders.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="cta-content text-center">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore deleniti voluptas enim! Provident consectetur id earum ducimus facilis, aspernatur hic, alias, harum rerum velit voluptas, voluptate enim! Eos, sunt, quidem.</p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nulla quo cum officia laboriosam. Amet tempore, aliquid quia eius commodi, doloremque omnis delectus laudantium dolor reiciendis non nulla! Doloremque maxime quo eum in culpa mollitia similique eius doloribus voluptatem facilis! Voluptatibus, eligendi, illum. Distinctio, non!</p>
+                    <p>We have one goal: Get the best price for your vehicle. Simple selling experience.</p>
+                    <p>Hence we have created a tailor-made platform to provide hassle-free buying and selling experience to customers, all under one roof, AutoTrade.</p>
                     </div>
                 </div>
             </div>
@@ -191,16 +190,16 @@
                     <div class="section-heading">
                         <h2>Read our <em>Blog</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <p>Check out what the editors at our Editorial Team have to say to make your experience here better than ever!.</p>
                     </div>
                 </div>
             </div>
             <div class="row" id="tabs">
               <div class="col-lg-4">
                 <ul>
-                  <li><a href='#tabs-1'>Lorem ipsum dolor sit amet, consectetur adipisicing.</a></li>
-                  <li><a href='#tabs-2'>Aspernatur excepturi magni, placeat rerum nobis magnam libero! Soluta.</a></li>
-                  <li><a href='#tabs-3'>Sunt hic recusandae vitae explicabo quidem laudantium corrupti non adipisci nihil.</a></li>
+                <li><a href='#tabs-1'>How To Make Smart Financial Decision When Buying Second Hand Vehicles.</a></li>
+                  <li><a href='#tabs-2'>Third Party Car Insurance Explained.</a></li>
+                  <li><a href='#tabs-3'>Tips And Tricks For Servicing Your Car.</a></li>
                   <div class="main-rounded-button"><a href="blog.php">Read More</a></div>
                 </ul>
               </div>
@@ -208,29 +207,29 @@
                 <section class='tabs-content'>
                   <article id='tabs-1'>
                     <img src="assets/images/blog-image-1-940x460.jpg" alt="">
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing.</h4>
+                    <h4>How To Make Smart Financial Decision When Buying Second Hand Vehicles.</h4>
 
-                    <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
+                    <p><i class="fa fa-user"></i> AutoTrade Editorial Team &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 23.07.2022 09:15 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  23 comments</p>
 
-                    <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                    <p>The vehicle exchange market in India is red-hot right now. Every brand worth their manufacturing chops is putting their best products forward in a bid to garner the most of the buyers financial pie during resales.</p>
                     <div class="main-button">
                         <a href="blog-details.php">Continue Reading</a>
                     </div>
                   </article>
                   <article id='tabs-2'>
                     <img src="assets/images/blog-image-2-940x460.jpg" alt="">
-                    <h4>Aspernatur excepturi magni, placeat rerum nobis magnam libero! Soluta.</h4>
-                    <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-                    <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <h4>Third Party Car Insurance Explained.</h4>
+                    <p><i class="fa fa-user"></i> AutoTrade Editorial Team &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.06.2022 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  09 comments</p>
+                    <p>The Motor Vehicle Act is the one that governs the use of automobiles in India. While it is typically laden with legalese, breaking it down for purpose of simplicity reveals several key aspects about it.</p>
                     <div class="main-button">
                         <a href="blog-details.php">Continue Reading</a>
                     </div>
                   </article>
                   <article id='tabs-3'>
                     <img src="assets/images/blog-image-3-940x460.jpg" alt="">
-                    <h4>Sunt hic recusandae vitae explicabo quidem laudantium corrupti non adipisci nihil.</h4>
-                    <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-                    <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
+                    <h4>Tips And Tricks For Servicing Your Car.</h4>
+                    <p><i class="fa fa-user"></i> AutoTrade Editorial Team &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 14.03.2022 12:13 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  10 comments</p>
+                    <p>Most owners of vehicles in India remain quite oblivious to the maintenance schedules. They usually go by what the company dealer has directed, but this has a great imact on its resale value.</p>
                     <div class="main-button">
                         <a href="blog-details.php">Continue Reading</a>
                     </div>
@@ -249,7 +248,7 @@
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <h2>Send us a <em>message</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
+                        <p>Be it queries or reviews, send them towards us!</p>
                         <div class="main-button">
                             <a href="contact.php">Contact us</a>
                         </div>
@@ -268,7 +267,7 @@
                     <div class="section-heading">
                         <h2>Read our <em>Testimonials</em></h2>
                         <img src="assets/images/line-dec.png" alt="waves">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem incidunt alias minima tenetur nemo necessitatibus?</p>
+                        <p>Hundreds of happy customers and counting, read what they have to say!</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -278,8 +277,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="First One">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                            <h4>Alok Bhardwaj</h4>
+                                <p><em>"All staff have a very helping attitude. Fully satisfied with the service. The vehicle I purchased had exactly the same condition as was described. Will highly recommend AutoTrade to all."</em></p>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -287,8 +286,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="second one">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                            <h4>Nupur Pandey</h4>
+                                <p><em>"I always recommend AutoTrade. Not only have I bought two vehicles through them, but many of my friends have too after I recommended them the same."</em></p>
                             </div>
                         </li>
                     </ul>
@@ -300,8 +299,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="fourth muscle">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                            <h4>Pranav Gandotra</h4>
+                                <p><em>"On the internet, there used to be a huge chaos for used vehicles and non-standardization of prices and warranty was an issue, but since AutoTrade, its just been hassle-free all around"</em></p>
                             </div>
                         </li>
                         <li class="feature-item">
@@ -309,8 +308,8 @@
                                 <img src="assets/images/features-first-icon.png" alt="training fifth">
                             </div>
                             <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
+                            <h4>Sudhanshu Yadav</h4>
+                                <p><em>"I really loved the experience with AutoTrade. The staff members were professional and courteous. Their attitude and approach was commendable. They delivered what they promised."</em></p>
                             </div>
                         </li>
                     </ul>

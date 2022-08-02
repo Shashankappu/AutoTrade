@@ -42,35 +42,25 @@
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="CustomerIndex.php
-                        " class="logo">Auto<em>Trade</em></a>
+                        <a href="CustomerIndex.php" class="logo">Auto<em>Trade</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="CustomerIndex.php
-                            ">Home</a></li>
-                            <li><a href="cars.php
-                            ">Vehicles</a></li>
+                            <li><a href="CustomerIndex.php">Home</a></li>
+                            <li><a href="cars.php">Add Vehicles</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                               
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item"  href="about.php
-                                    ">About Us</a>
-                                    <a class="dropdown-item" href="blog.php
-                                    ">Blog</a>
-                                    <a class="dropdown-item" href="team.php
-                                    ">Team</a>
-                                    <a class="dropdown-item active" href="testimonials.php
-                                    ">Testimonials</a>
-                                    <a class="dropdown-item" href="faq.php
-                                    ">FAQ</a>
-                                    <a class="dropdown-item" href="terms.php
-                                    ">Terms</a>
+                                    <a class="dropdown-item"  href="about.php">About Us</a>
+                                    <a class="dropdown-item" href="blog.php">Blog</a>
+                                    <a class="dropdown-item" href="team.php">Team</a>
+                                    <a class="dropdown-item" href="testimonials.php">Testimonials</a>
+                                    <a class="dropdown-item" href="faq.php">FAQ</a>
+                                    <a class="dropdown-item active" href="terms.php">Terms</a>
                                 </div>
                             </li>
-                            <li><a href="contact.php
-                            ">Contact</a></li> 
+                            <li><a href="contact.php">Contact</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -90,69 +80,45 @@
                     <div class="cta-content">
                         <br>
                         <br>
-                        <h2>Read our <em>Testimonials</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <h2>Read our <em>Terms</em></h2>
+                        <p>Welcome to AutoTrade, the following are our Terms and Conditions.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-     <!-- ***** Testimonials Item Start ***** -->
-    <section class="section" id="features">
+    <!-- ***** Our Classes Start ***** -->
+    <section class="section" id="our-classes">
         <div class="container">
             <br>
             <br>
             <br>
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/features-first-icon.png" alt="First One">
-                            </div>
-                            <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
-                            </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/features-first-icon.png" alt="second one">
-                            </div>
-                            <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/features-first-icon.png" alt="fourth muscle">
-                            </div>
-                            <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
-                            </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/features-first-icon.png" alt="training fifth">
-                            </div>
-                            <div class="right-content">
-                                <h4>John Doe</h4>
-                                <p><em>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta numquam maxime voluptatibus, impedit sed! Necessitatibus repellendus sed deleniti id et!"</em></p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          
+            <section class='tabs-content'>
+              <article>
+              <h4>1. General Provisions</h4>
+                <p>By using this Website, You accept our Terms & Conditions. This is a legally binding agreement between You and AutoTrade; please read it carefully.</p>
+
+                <br>
+                    
+                <h4>2. Scope of Services</h4>
+                <p>AutoTrade will provide participants means to advertise their vehicle on the site (sellers) and will display said vehicle for an agreed amount of time only.</p>
+
+                <br>
+                
+                <h4>3. Buying and Selling Vehicles</h4>
+                <p>AutoTrade is not a party to any transaction between vehicle buyers and sellers that originates on or through this Website. At no time shall AutoTrade have any obligations or liabilities in respect of such transaction.</p>
+
+                <br>
+                
+                <h4>4. Content Requirements & Responsibility of Advertisements</h4>
+                <p>Users are allowed to advertise only for the sale of Passengers vehicles. Any other advertisements are not allowed and will be removed, and users are obliged to submit correct and full information about their vehicle. AutoTrade is not responsible for any damage arising from placement of false information.</p>
+              </article>
+            </section>
         </div>
     </section>
-    <!-- ***** Testimonials Item End ***** -->
+    <!-- ***** Our Classes End ***** -->
 
     <!-- ***** Footer Start ***** -->
     <footer>

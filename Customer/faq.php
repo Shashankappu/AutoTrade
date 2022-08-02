@@ -47,7 +47,7 @@
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li><a href="CustomerIndex.php">Home</a></li>
-                            <li><a href="cars.php">Vehicles</a></li>
+                            <li><a href="cars.php">Add Vehicles</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
                               
@@ -81,7 +81,7 @@
                         <br>
                         <br>
                         <h2>Read our <em>FAQ</em></h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula</p>
+                        <p>Answers to any queries you may have to save you the hassle</p>
                     </div>
                 </div>
             </div>
@@ -97,23 +97,23 @@
           
             <section class='tabs-content'>
               <article>
-                <h4><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet?</h4>
-                <p>Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipisicing elit. Vel aspernatur natus dignissimos eos quod, odio.</p>
+              <h4><i class="fa fa-question-circle"></i> How long will it take for the payment to get transferred into my account?</h4>
+                <p>Depending on your preferred mode of payment, the amount can get transferred in your account in as early as a few hours.</p>
 
                 <br>
                     
-                <h4><i class="fa fa-question-circle"></i> Lorem ipsum dolor sit amet, consectetur?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cupiditate ullam exercitationem molestiae illum? Nam magni, saepe sint maiores vitae!</p>
+                <h4><i class="fa fa-question-circle"></i> Where can I check my current RC transfer status of my vehicle?</h4>
+                <p>To check the status of your RC transfer yourself, you can always visit www.parivahan.gov.in</p>
 
                 <br>
                 
-                <h4><i class="fa fa-question-circle"></i> Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum?</h4>
-                <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                <h4><i class="fa fa-question-circle"></i> How does AutoTrade guarantee the best price for my vehicle?</h4>
+                <p>At AutoTrade, we believe you deserve a price that truly values your vehicle. That is why our evaluation makes it easy for you to get a great price and sell your vehicle hassle free.</p>
 
                 <br>
                 
-                <h4><i class="fa fa-question-circle"></i> Laudantium dolores vitae consequatur, magnam porro repellat excepturi rerum?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi suscipit commodi impedit unde accusantium nam incidunt tenetur, libero maiores enim! Nisi ex odit, totam nihil doloribus. Nemo ut, eos consequatur libero aut quas dolorum ipsa, quidem, totam dicta id possimus dolores distinctio laboriosam doloribus voluptates tenetur consectetur inventore aliquid dolorem?</p>
+                <h4><i class="fa fa-question-circle"></i> My query is not listed!</h4>
+                <p>If your query is not listed here, you can reach out to us on our customer support support@autotrade.com</p>
               </article>
             </section>
         </div>
